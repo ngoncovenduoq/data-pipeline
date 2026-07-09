@@ -1,0 +1,16 @@
+services:
+  postgres-dw:
+    image: postgres:16
+    container_name: postgres-dw
+    environment:
+      POSTGRES_USER: ${DW_USER}
+      POSTGRES_PASSWORD: ${DW_PASSWORD}
+      POSTGRES_DB: ${DW_DB}
+    ports:
+      - "5433:5432"
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d   # tu chay file .sql khi khoi tao
+      - dw_data:/var/lib/postgresql/data    # giu du lieu khi restart
+
+volumes:
+  dw_data:
