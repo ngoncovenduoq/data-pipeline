@@ -1,4 +1,4 @@
-# 🌦️ Vietnam Weather & Air Quality Data Pipeline
+# 🌦️ Weather & Air Quality Data Pipeline
 
 Automated ETL pipeline that collects **weather** (OpenWeather API) and **air quality**
 (OpenAQ API) data for Vietnamese and international cities every 30 minutes,
