@@ -13,6 +13,10 @@ CITIES = [
     {"name": "Hanoi", "lat": 21.0285, "lon": 105.8542},
     {"name": "Ho Chi Minh City", "lat": 10.7769, "lon": 106.7009},
     {"name": "Da Nang", "lat": 16.0544, "lon": 108.2022},
+    {"name": "Da Lat", "lat": 11.9404, "lon": 108.4583},
+    {"name": "Singapore", "lat": 1.3521, "lon": 103.8198},
+    {"name": "Tokyo", "lat": 35.6762, "lon": 139.6503},
+    {"name": "Beijing", "lat": 39.9042, "lon": 116.4074},
 ]
 
 
